@@ -1,0 +1,31 @@
+.TodoForm {
+  display: flex;
+  justify-content: space-between; /* Ensures proper spacing between input and button */
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px; /* Adds space between input and button */
+  font-size: 16px;
+  width: 80%;
+}
+
+.todo-btn {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.todo-btn:hover {
+  background-color: #218838;
+}
